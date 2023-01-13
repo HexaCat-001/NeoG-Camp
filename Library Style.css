@@ -17,3 +17,16 @@ body
     max-width: 600px;
     margin:auto;
 }
+
+/** @ Links **/
+.primary-link {
+    color: var(--primary-color);
+    border-radius: 0.5cm;
+    border: 2px solid var(--primary-color);
+    padding: 0.9rem;
+}
+.secondary-link {
+    background-color: var(--primary-color);
+    color:aliceblue;
+    padding: 0.5rem;
+}
