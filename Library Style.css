@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat:wght@400;700&display=swap');
 
+/** Selectors [Inspect things & Check one by one]**/
 body
 {
     font-family: 'Montserrat', sans-serif;
+}
+
+.Container-Fluid
+{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.Container-Center
+{
+    max-width: 600px;
+    margin:auto;
 }
