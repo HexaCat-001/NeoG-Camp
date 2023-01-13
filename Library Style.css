@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat:wght@400;700&display=swap');
 
+:root{
+    --primary-color: #f9b026;
+}
 /** Selectors [Inspect things & Check one by one]**/
 body
 {
@@ -19,14 +22,20 @@ body
 }
 
 /** @ Links **/
-.primary-link {
+.link-primary {
     color: var(--primary-color);
     border-radius: 0.5cm;
     border: 2px solid var(--primary-color);
     padding: 0.9rem;
 }
-.secondary-link {
+.link-secondary {
     background-color: var(--primary-color);
-    color:aliceblue;
+    color:rgb(239, 243, 247);
     padding: 0.5rem;
+}
+
+/* @ List */
+.list-ul-style
+{
+    list-style-type:square;
 }
